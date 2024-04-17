@@ -29,7 +29,6 @@ if (findProject(':SophisticatedCore') != null) {
 
 repositories {
     mavenCentral()
-    maven { url = 'https://repo.maven.apache.org/maven2/' }
     maven { url "https://maven.theillusivec4.top/" }
     maven { url "https://maven.tterrag.com/" }
     maven { url = "https://modmaven.dev/" }
