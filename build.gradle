@@ -3,8 +3,8 @@ buildscript {
         mavenLocal()
         maven { url = "https://papermc.io/repo/service/rest/repository/browse/maven-public/" }
         //方式一
-        maven{ url 'https://maven.aliyun.com/repository/google'}
-        maven{ url 'https://maven.aliyun.com/repository/jcenter'}
+        maven{ url = 'https://maven.aliyun.com/repository/google'}
+        maven{ url = 'https://maven.aliyun.com/repository/jcenter'}
         maven {
             // location of the maven that hosts JEI files before January 2023
             name = "Progwml6's maven"
@@ -55,8 +55,8 @@ repositories {
     maven { url = 'https://repo.maven.apache.org/maven2/' }
     maven { url = "https://papermc.io/repo/service/rest/repository/browse/maven-public/" }
     //方式一
-    maven{ url 'https://maven.aliyun.com/repository/google'}
-    maven{ url 'https://maven.aliyun.com/repository/jcenter'}
+    maven{ url = 'https://maven.aliyun.com/repository/google'}
+    maven{ url = 'https://maven.aliyun.com/repository/jcenter'}
     maven {
         // location of the maven that hosts JEI files before January 2023
         name = "Progwml6's maven"
@@ -73,17 +73,17 @@ repositories {
         url = "https://modmaven.dev"
     }
     maven { url = 'https://repo.maven.apache.org/maven2/private/' }
-    maven { url "https://maven.theillusivec4.top/" }
-    maven { url "https://maven.tterrag.com/" }
+    maven { url = "https://maven.theillusivec4.top/" }
+    maven { url = "https://maven.tterrag.com/" }
     maven { url = "https://modmaven.dev/" }
-    maven { url "https://minecraft.curseforge.com/api/maven/" }
+    maven { url = "https://minecraft.curseforge.com/api/maven/" }
     maven {
-        url "https://www.cursemaven.com"
+        url = "https://www.cursemaven.com"
         content {
             includeGroup "curse.maven"
         }
     }
-    maven { url "https://maven.blamejared.com/" }
+    maven { url = "https://maven.blamejared.com/" }
     maven {
         name = "GitHubPackages"
         url = uri("https://maven.pkg.github.com/p3pp3rf1y/sophisticatedcore")
